@@ -1,44 +1,49 @@
 <?php
-	//recupero con il metodo post il dato inserito,nel campo eta del form
-    $vet_d1=$_POST['vet_d1'];
+	$d1=$_POST['d1'];
 	
-    if($vet_d1=="r2d1")
+    if($d1=="r2d1") {
 		echo "Hai risposto correttamente<br>";
-    else
+    } else {
 		echo "NON Hai risposto correttamente<br>";
+	}
 		
-    $vet_d2=$_POST['vet_d2'];
+    $d2=$_POST['d2'];
 	
-    if($vet_d2=="r4d2")
+    if($d2=="r4d2") {
 		echo "Hai risposto correttamente<br>";
-    else
+	} else {
 		echo "NON Hai risposto correttamente<br>";
+	}
 		
-    $vet_d3=$_POST['vet_d3'];
+    $d3=$_POST['d3'];
 	
-    if($vet_d3=="r1d3")
+    if($d3=="r1d3") {
 		echo "Hai risposto correttamente<br>";
-    else
+    } else {
 		echo "NON Hai risposto correttamente<br>";
+	}
 		 
-    $vet_d4=$_POST['vet_d4'];
+    $d4=$_POST['d4'];
 	
-    if($vet_d4=="r2d4")
+    if($d4=="r2d4") {
 		echo "Hai risposto correttamente<br>";
-    else
+    } else {
 		echo "NON Hai risposto correttamente<br>";
+	}
 		
-    $vet_d5=$_POST['vet_d5'];
+    $d5=$_POST['d5'];
 	
-    if($vet_d5=="r1d5")
+    if($d5=="r1d5") {
 		echo "Hai risposto correttamente<br>";
-    else
+    } else {
 		echo "NON Hai risposto correttamente<br>";
+	}
 		
-    $vet_d6=$_POST['vet_d6'];
+    $d6=$_POST['d6'];
 	
-    if($vet_d6=="r3d6")
+    if($d6=="r3d6") {
 		echo "Hai risposto correttamente<br>";
-    else
+	} else {
 		echo "NON Hai risposto correttamente<br>";
+	}
 ?>
